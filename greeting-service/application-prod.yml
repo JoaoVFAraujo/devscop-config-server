@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: devscop-service
+greeting-service:
+  greeting: "Ciao"
+  default-value: "Mondo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
